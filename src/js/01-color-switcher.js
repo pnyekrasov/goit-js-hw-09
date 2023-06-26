@@ -1,10 +1,7 @@
 const btnStartEl = document.querySelector('button[data-start]');
 const btnStopEl = document.querySelector('button[data-stop]');
 const backgroundColorBodyEl = document.querySelector('body');
-// const btnEls = document.querySelectorAll('button');
-// console.log(btnEls);
-// btnEls.classList.toggle('buttonPos')
-// buttonPos.style.margin = "auto";
+
 
 
 btnStartEl.addEventListener('click', () => {
