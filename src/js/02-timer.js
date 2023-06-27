@@ -39,6 +39,7 @@ const options = {
 
         if (currentTimer < 1000) {
           clearTimeout(timerId);
+          Notiflix.Notify.success('Time is over');
         }
       }, 1000);
     });
