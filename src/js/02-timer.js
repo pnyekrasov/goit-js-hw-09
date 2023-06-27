@@ -38,8 +38,8 @@ const options = {
         secondsEl.textContent = addLeadingZero(currentDate.seconds);
 
         if (currentTimer < 1000) {
-          clearTimeout(timerId);
           Notiflix.Notify.success('Time is over');
+          clearTimeout(timerId);
         }
       }, 1000);
     });
